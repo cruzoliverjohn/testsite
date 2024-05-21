@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+    .btn-custom {
+        margin-top: 15px;
+        padding: 0.5rem 7rem;
+        font-size: 0.8rem;
+    }
+}

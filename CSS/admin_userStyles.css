@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .user-info {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    
+    [data-mobile-center] {
+        margin-right: 0 !important;
+    }
+
+    .btn-custom {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .breadcrumb-item {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .btn-custom {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-custom {
+        width: auto;
+        font-size: 1.1rem;
+    }
+}

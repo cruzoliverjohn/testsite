@@ -1,0 +1,82 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css');
+
+.student-details-rectangle {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-details-container .profile-picture-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-details-container .profile-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.student-details {
+    text-align: center;
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    .profile-details-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .profile-details-container .profile-picture-container {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .student-details {
+        text-align: left;
+        margin-left: 50px;
+    }
+}
+
+.other-details-container {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.profile-picture-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-custom {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px 0;
+}

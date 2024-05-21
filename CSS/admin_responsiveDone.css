@@ -1,0 +1,44 @@
+/* DASHBOARD */
+@media (max-width: 767.98px) {
+    .card {
+        margin: 10px;
+    }
+
+    .card .card-body {
+        padding: 20px;
+    }
+
+    .card-body::before {
+        width: 55px;
+        height: 55px;
+        left: 15px;
+    }
+
+    .card-body i {
+        font-size: 2rem;
+        left: 27px;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+    .card-total {
+        font-size: 1.5rem;
+    }
+
+    #sidebar {
+        width: 70px;
+    }
+
+    #header-content {
+        width: calc(100% - 70px);
+        margin-left: 70px;
+    }
+
+    #main-content {
+        width: calc(100% - 70px);
+        margin-left: 70px; 
+        margin-top: 64px;
+    }
+}

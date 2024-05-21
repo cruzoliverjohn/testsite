@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .dashboard-title {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .breadcrumb-item {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
